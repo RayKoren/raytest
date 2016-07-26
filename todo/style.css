@@ -1,0 +1,14 @@
+body {
+  background-color: white;
+  color: brown;
+}
+#list .checked {
+  color: green;
+}
+#list .checked::after {
+  content: '*';
+}
+#list .done {
+  color: #999;
+  text-decoration: line-through;
+}

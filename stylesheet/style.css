@@ -1,0 +1,72 @@
+body {
+
+  width: 100%;
+}
+p {
+  font-family: 'Droid Sans', sans-serif;
+  width: 60%;
+  padding: 20%;
+}
+h1 {
+  font-family: 'Rokkitt', serif;
+  font-size: 32px;
+  font-weight: bold;
+  text-align:center;
+}
+h2 {
+  font-family: 'Rokkitt', serif;
+  font-size: 26px;
+  font-weight: lighter;
+  text-align: center;
+}
+.colorPalette div:hover {
+  border: solid 1px;
+}
+.colorPalette{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.circle1 {
+  border-radius: 50%;
+  width: 100px;
+	height: 100px;
+  background-color: rgb(247, 144, 30);
+}
+
+.circle2 {
+  border-radius: 50%;
+  width: 100px;
+	height: 100px;
+  background-color: rgb(66, 107, 143);
+}
+.circle3 {
+  border-radius: 50%;
+  width: 100px;
+	height: 100px;
+  background-color: rgb(40, 86, 127);
+  border-width: 2px;
+  border-color: black;
+}
+.circle4 {
+  border-radius: 50%;
+  width: 100px;
+	height: 100px;
+  background-color: rgb(255, 255, 255);
+}
+.circle5 {
+  border-radius: 50%;
+  width: 100px;
+	height: 100px;
+  background-color: rgb(51,51,51);
+}
+.title {
+  color: white;
+  background-color: rgb(247, 144, 30);
+  height: 3rem;
+  width: 100%;
+  padding: 1rem;
+}
+.colorSection {
+  text-align: center;
+}

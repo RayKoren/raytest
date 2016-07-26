@@ -1,0 +1,33 @@
+#osc {
+  background-color: blue;
+  width: 500px;
+  height: 100px;
+}
+#osc2 {
+  background-color: orange;
+  width: 500px;
+  height: 100px;
+}
+#osc3 {
+  background-color: red;
+  width: 500px;
+  height: 100px;
+}
+#oscPitch {
+
+}
+#oscPitch2 {
+
+}
+#oscPitch3 {
+
+}
+#oscGain {
+
+}
+
+
+
+.bg {
+  background-color: hsl(157, 28%, 62%)
+}
